@@ -1,0 +1,7488 @@
+[
+  {
+    "run": "cortex/PCA_seed0",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "PCA_seed0",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 0,
+      "embedding_dim": 50
+    },
+    "source": "results/cortex/PCA_seed0/config.json"
+  },
+  {
+    "run": "cortex/PCA_seed1",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "PCA_seed1",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 1,
+      "embedding_dim": 50
+    },
+    "source": "results/cortex/PCA_seed1/config.json"
+  },
+  {
+    "run": "cortex/PCA_seed2",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "PCA_seed2",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 2,
+      "embedding_dim": 50
+    },
+    "source": "results/cortex/PCA_seed2/config.json"
+  },
+  {
+    "run": "cortex/PCA_seed3",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "PCA_seed3",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 3,
+      "embedding_dim": 50
+    },
+    "source": "results/cortex/PCA_seed3/config.json"
+  },
+  {
+    "run": "cortex/PCA_seed4",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "PCA_seed4",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/cortex/PCA_seed4/config.json"
+  },
+  {
+    "run": "cortex/SCENE_16D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_16D_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_16D_seed0/config.json"
+  },
+  {
+    "run": "cortex/SCENE_16D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_16D_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_16D_seed1/config.json"
+  },
+  {
+    "run": "cortex/SCENE_16D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_16D_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_16D_seed2/config.json"
+  },
+  {
+    "run": "cortex/SCENE_16D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_16D_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_16D_seed3/config.json"
+  },
+  {
+    "run": "cortex/SCENE_16D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_16D_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_16D_seed4/config.json"
+  },
+  {
+    "run": "cortex/SCENE_2D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_2D_seed0",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_2D_seed0/config.json"
+  },
+  {
+    "run": "cortex/SCENE_2D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_2D_seed1",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_2D_seed1/config.json"
+  },
+  {
+    "run": "cortex/SCENE_2D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_2D_seed2",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_2D_seed2/config.json"
+  },
+  {
+    "run": "cortex/SCENE_2D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_2D_seed3",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_2D_seed3/config.json"
+  },
+  {
+    "run": "cortex/SCENE_2D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_2D_seed4",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_2D_seed4/config.json"
+  },
+  {
+    "run": "cortex/SCENE_32D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_32D_seed0",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_32D_seed0/config.json"
+  },
+  {
+    "run": "cortex/SCENE_32D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_32D_seed1",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_32D_seed1/config.json"
+  },
+  {
+    "run": "cortex/SCENE_32D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_32D_seed2",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_32D_seed2/config.json"
+  },
+  {
+    "run": "cortex/SCENE_32D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_32D_seed3",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_32D_seed3/config.json"
+  },
+  {
+    "run": "cortex/SCENE_32D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_32D_seed4",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_32D_seed4/config.json"
+  },
+  {
+    "run": "cortex/SCENE_3D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_3D_seed0",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_3D_seed0/config.json"
+  },
+  {
+    "run": "cortex/SCENE_3D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_3D_seed1",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_3D_seed1/config.json"
+  },
+  {
+    "run": "cortex/SCENE_3D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_3D_seed2",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_3D_seed2/config.json"
+  },
+  {
+    "run": "cortex/SCENE_3D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_3D_seed3",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_3D_seed3/config.json"
+  },
+  {
+    "run": "cortex/SCENE_3D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_3D_seed4",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_3D_seed4/config.json"
+  },
+  {
+    "run": "cortex/SCENE_64D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_64D_seed0",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_64D_seed0/config.json"
+  },
+  {
+    "run": "cortex/SCENE_64D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_64D_seed1",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_64D_seed1/config.json"
+  },
+  {
+    "run": "cortex/SCENE_64D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_64D_seed2",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_64D_seed2/config.json"
+  },
+  {
+    "run": "cortex/SCENE_64D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_64D_seed3",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_64D_seed3/config.json"
+  },
+  {
+    "run": "cortex/SCENE_64D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_64D_seed4",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_64D_seed4/config.json"
+  },
+  {
+    "run": "cortex/SCENE_8D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_8D_seed0",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_8D_seed0/config.json"
+  },
+  {
+    "run": "cortex/SCENE_8D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_8D_seed1",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_8D_seed1/config.json"
+  },
+  {
+    "run": "cortex/SCENE_8D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_8D_seed2",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_8D_seed2/config.json"
+  },
+  {
+    "run": "cortex/SCENE_8D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_8D_seed3",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_8D_seed3/config.json"
+  },
+  {
+    "run": "cortex/SCENE_8D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_8D_seed4",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_8D_seed4/config.json"
+  },
+  {
+    "run": "cortex/SCENE_seed0",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 0,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_seed0/config.json"
+  },
+  {
+    "run": "cortex/SCENE_seed1",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 1,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_seed1/config.json"
+  },
+  {
+    "run": "cortex/SCENE_seed2",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 2,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_seed2/config.json"
+  },
+  {
+    "run": "cortex/SCENE_seed3",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 3,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_seed3/config.json"
+  },
+  {
+    "run": "cortex/SCENE_seed4",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SCENE_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 4,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/cortex/SCENE_seed4/config.json"
+  },
+  {
+    "run": "cortex/SIMBA_seed0",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SIMBA_seed0",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 0,
+      "pbg_workers": 12
+    },
+    "source": "results/cortex/SIMBA_seed0/config.json"
+  },
+  {
+    "run": "cortex/SIMBA_seed1",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SIMBA_seed1",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 1,
+      "pbg_workers": 12
+    },
+    "source": "results/cortex/SIMBA_seed1/config.json"
+  },
+  {
+    "run": "cortex/SIMBA_seed2",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SIMBA_seed2",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 2,
+      "pbg_workers": 12
+    },
+    "source": "results/cortex/SIMBA_seed2/config.json"
+  },
+  {
+    "run": "cortex/SIMBA_seed3",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SIMBA_seed3",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 3,
+      "pbg_workers": 12
+    },
+    "source": "results/cortex/SIMBA_seed3/config.json"
+  },
+  {
+    "run": "cortex/SIMBA_seed4",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "SIMBA_seed4",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 4,
+      "pbg_workers": 12
+    },
+    "source": "results/cortex/SIMBA_seed4/config.json"
+  },
+  {
+    "run": "cortex/scVI_seed0",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "scVI_seed0",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 0
+    },
+    "source": "results/cortex/scVI_seed0/config.json"
+  },
+  {
+    "run": "cortex/scVI_seed1",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "scVI_seed1",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 1
+    },
+    "source": "results/cortex/scVI_seed1/config.json"
+  },
+  {
+    "run": "cortex/scVI_seed2",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "scVI_seed2",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 2
+    },
+    "source": "results/cortex/scVI_seed2/config.json"
+  },
+  {
+    "run": "cortex/scVI_seed3",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "scVI_seed3",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 3
+    },
+    "source": "results/cortex/scVI_seed3/config.json"
+  },
+  {
+    "run": "cortex/scVI_seed4",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/cortex.h5ad",
+      "results_dir": "results/cortex",
+      "run_name": "scVI_seed4",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 4
+    },
+    "source": "results/cortex/scVI_seed4/config.json"
+  },
+  {
+    "run": "geometric_biology/SIMBA_GR_00",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/GR_00.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "SIMBA_GR_00",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 42,
+      "pbg_workers": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/geometric_biology/SIMBA_GR_00/config.json"
+  },
+  {
+    "run": "geometric_biology/SIMBA_GR_01",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/GR_01.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "SIMBA_GR_01",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 42,
+      "pbg_workers": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/geometric_biology/SIMBA_GR_01/config.json"
+  },
+  {
+    "run": "geometric_biology/SIMBA_GR_02",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/GR_02.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "SIMBA_GR_02",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 42,
+      "pbg_workers": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/geometric_biology/SIMBA_GR_02/config.json"
+  },
+  {
+    "run": "geometric_biology/SIMBA_GR_04",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/GR_04.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "SIMBA_GR_04",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 42,
+      "pbg_workers": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/geometric_biology/SIMBA_GR_04/config.json"
+  },
+  {
+    "run": "geometric_biology/SIMBA_GR_08",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/GR_08.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "SIMBA_GR_08",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 42,
+      "pbg_workers": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/geometric_biology/SIMBA_GR_08/config.json"
+  },
+  {
+    "run": "geometric_biology/SIMBA_GR_18",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/GR_18.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "SIMBA_GR_18",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 42,
+      "pbg_workers": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/geometric_biology/SIMBA_GR_18/config.json"
+  },
+  {
+    "run": "geometric_biology/SIMBA_TCR",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/tcr_stim_data.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "SIMBA_TCR",
+      "out_emb": "SIMBA",
+      "min_n_cells": 1,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "layer": "simba",
+      "batch_key": null,
+      "pbg_workers": 4,
+      "seed": 42,
+      "embedding_dim": 50
+    },
+    "source": "results/geometric_biology/SIMBA_TCR/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_00_2D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_00.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_00_2D",
+      "latent_dim": 2,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_00_2D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_00_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_00.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_00_3D",
+      "latent_dim": 3,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_00_3D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_01_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_01.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_01_3D",
+      "latent_dim": 3,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_01_3D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_02_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_02.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_02_3D",
+      "latent_dim": 3,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_02_3D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_04_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_04.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_04_3D",
+      "latent_dim": 3,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_04_3D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_08_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_08.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_08_3D",
+      "latent_dim": 3,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_08_3D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_18_2D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_18.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_18_2D",
+      "latent_dim": 2,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_18_2D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_GR_18_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/GR_18.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_GR_18_3D",
+      "latent_dim": 3,
+      "epochs": 200,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_GR_18_3D/config.json"
+  },
+  {
+    "run": "geometric_biology/scLDM_TCR",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/tcr_stim_data.h5ad",
+      "results_dir": "results/geometric_biology",
+      "run_name": "scLDM_TCR",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/geometric_biology/scLDM_TCR/config.json"
+  },
+  {
+    "run": "hca_nuclei/PCA",
+    "group": "figures",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "PCA",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 42
+    },
+    "source": "results/hca_nuclei/PCA/config.json"
+  },
+  {
+    "run": "hca_nuclei/PCA_seed0",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "PCA_seed0",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "hvg": null,
+      "seed": 0,
+      "embedding_dim": 50
+    },
+    "source": "results/hca_nuclei/PCA_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/PCA_seed1",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "PCA_seed1",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "hvg": null,
+      "seed": 1,
+      "embedding_dim": 50
+    },
+    "source": "results/hca_nuclei/PCA_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/PCA_seed2",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "PCA_seed2",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "hvg": null,
+      "seed": 2,
+      "embedding_dim": 50
+    },
+    "source": "results/hca_nuclei/PCA_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/PCA_seed3",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "PCA_seed3",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "hvg": null,
+      "seed": 3,
+      "embedding_dim": 50
+    },
+    "source": "results/hca_nuclei/PCA_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/PCA_seed4",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "PCA_seed4",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "hvg": null,
+      "seed": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/hca_nuclei/PCA_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_16D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_16D_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_16D_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_16D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_16D_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_16D_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_16D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_16D_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_16D_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_16D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_16D_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_16D_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_16D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_16D_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_16D_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_2D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_2D_seed0",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_2D_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_2D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_2D_seed1",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_2D_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_2D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_2D_seed2",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_2D_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_2D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_2D_seed3",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_2D_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_2D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_2D_seed4",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_2D_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_32D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_32D_seed0",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_32D_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_32D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_32D_seed1",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_32D_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_32D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_32D_seed2",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_32D_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_32D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_32D_seed3",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_32D_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_32D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_32D_seed4",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_32D_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_3D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_3D_seed0",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_3D_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_3D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_3D_seed1",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_3D_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_3D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_3D_seed2",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_3D_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_3D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_3D_seed3",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_3D_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_3D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_3D_seed4",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_3D_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_64D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_64D_seed0",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_64D_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_64D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_64D_seed1",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_64D_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_64D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_64D_seed2",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_64D_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_64D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_64D_seed3",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_64D_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_64D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_64D_seed4",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_64D_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_8D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_8D_seed0",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_8D_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_8D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_8D_seed1",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_8D_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_8D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_8D_seed2",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_8D_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_8D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_8D_seed3",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_8D_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_8D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_8D_seed4",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_8D_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_seed0",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 0,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_seed1",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 1,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_seed2",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 2,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_seed3",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 3,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SCENE_seed4",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SCENE_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 4,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/SCENE_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/SIMBA_seed0",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SIMBA_seed0",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "seed": 0,
+      "pbg_workers": 12
+    },
+    "source": "results/hca_nuclei/SIMBA_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/SIMBA_seed1",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SIMBA_seed1",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "seed": 1,
+      "pbg_workers": 12
+    },
+    "source": "results/hca_nuclei/SIMBA_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/SIMBA_seed2",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SIMBA_seed2",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "seed": 2,
+      "pbg_workers": 12
+    },
+    "source": "results/hca_nuclei/SIMBA_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/SIMBA_seed3",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SIMBA_seed3",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "seed": 3,
+      "pbg_workers": 12
+    },
+    "source": "results/hca_nuclei/SIMBA_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/SIMBA_seed4",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "SIMBA_seed4",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "seed": 4,
+      "pbg_workers": 12
+    },
+    "source": "results/hca_nuclei/SIMBA_seed4/config.json"
+  },
+  {
+    "run": "hca_nuclei/scLDM_batch_full_full",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scLDM_batch_full_full",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/scLDM_batch_full_full/config.json"
+  },
+  {
+    "run": "hca_nuclei/scLDM_batch_full_full_2D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scLDM_batch_full_full_2D",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/scLDM_batch_full_full_2D/config.json"
+  },
+  {
+    "run": "hca_nuclei/scLDM_batch_full_full_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scLDM_batch_full_full_3D",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": [
+        "cell_source",
+        "donor"
+      ],
+      "batch_variant": [
+        "full",
+        "full"
+      ],
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/scLDM_batch_full_full_3D/config.json"
+  },
+  {
+    "run": "hca_nuclei/scLDM_no_batch",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scLDM_no_batch",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/scLDM_no_batch/config.json"
+  },
+  {
+    "run": "hca_nuclei/scLDM_no_batch_2D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scLDM_no_batch_2D",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/hca_nuclei/scLDM_no_batch_2D/config.json"
+  },
+  {
+    "run": "hca_nuclei/scVI",
+    "group": "figures",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scVI",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 42
+    },
+    "source": "results/hca_nuclei/scVI/config.json"
+  },
+  {
+    "run": "hca_nuclei/scVI_seed0",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scVI_seed0",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 0
+    },
+    "source": "results/hca_nuclei/scVI_seed0/config.json"
+  },
+  {
+    "run": "hca_nuclei/scVI_seed1",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scVI_seed1",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 1
+    },
+    "source": "results/hca_nuclei/scVI_seed1/config.json"
+  },
+  {
+    "run": "hca_nuclei/scVI_seed2",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scVI_seed2",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 2
+    },
+    "source": "results/hca_nuclei/scVI_seed2/config.json"
+  },
+  {
+    "run": "hca_nuclei/scVI_seed3",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scVI_seed3",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 3
+    },
+    "source": "results/hca_nuclei/scVI_seed3/config.json"
+  },
+  {
+    "run": "hca_nuclei/scVI_seed4",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/hca_nuclei.h5ad",
+      "results_dir": "results/hca_nuclei",
+      "run_name": "scVI_seed4",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "cell_source",
+        "donor"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 4
+    },
+    "source": "results/hca_nuclei/scVI_seed4/config.json"
+  },
+  {
+    "run": "kang/scLDM",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/kang_2018.h5ad",
+      "results_dir": "results/kang",
+      "run_name": "scLDM",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/kang/scLDM/config.json"
+  },
+  {
+    "run": "neurips_cite/PCA_seed0",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "PCA_seed0",
+      "batch_key": [
+        "batch"
+      ],
+      "hvg": null,
+      "seed": 0,
+      "embedding_dim": 50
+    },
+    "source": "results/neurips_cite/PCA_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite/PCA_seed1",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "PCA_seed1",
+      "batch_key": [
+        "batch"
+      ],
+      "hvg": null,
+      "seed": 1,
+      "embedding_dim": 50
+    },
+    "source": "results/neurips_cite/PCA_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite/PCA_seed2",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "PCA_seed2",
+      "batch_key": [
+        "batch"
+      ],
+      "hvg": null,
+      "seed": 2,
+      "embedding_dim": 50
+    },
+    "source": "results/neurips_cite/PCA_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite/PCA_seed3",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "PCA_seed3",
+      "batch_key": [
+        "batch"
+      ],
+      "hvg": null,
+      "seed": 3,
+      "embedding_dim": 50
+    },
+    "source": "results/neurips_cite/PCA_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite/PCA_seed4",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "PCA_seed4",
+      "batch_key": [
+        "batch"
+      ],
+      "hvg": null,
+      "seed": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/neurips_cite/PCA_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite/SCENE_seed0",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SCENE_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 0,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite/SCENE_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite/SCENE_seed1",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SCENE_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 1,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite/SCENE_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite/SCENE_seed2",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SCENE_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 2,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite/SCENE_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite/SCENE_seed3",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SCENE_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 3,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite/SCENE_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite/SCENE_seed4",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SCENE_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 4,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite/SCENE_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite/SIMBA_seed0",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SIMBA_seed0",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "batch"
+      ],
+      "seed": 0,
+      "pbg_workers": 12
+    },
+    "source": "results/neurips_cite/SIMBA_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite/SIMBA_seed1",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SIMBA_seed1",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "batch"
+      ],
+      "seed": 1,
+      "pbg_workers": 12
+    },
+    "source": "results/neurips_cite/SIMBA_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite/SIMBA_seed2",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SIMBA_seed2",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "batch"
+      ],
+      "seed": 2,
+      "pbg_workers": 12
+    },
+    "source": "results/neurips_cite/SIMBA_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite/SIMBA_seed3",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SIMBA_seed3",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "batch"
+      ],
+      "seed": 3,
+      "pbg_workers": 12
+    },
+    "source": "results/neurips_cite/SIMBA_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite/SIMBA_seed4",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "SIMBA_seed4",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "batch"
+      ],
+      "seed": 4,
+      "pbg_workers": 12
+    },
+    "source": "results/neurips_cite/SIMBA_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite/scVI_seed0",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "scVI_seed0",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 0
+    },
+    "source": "results/neurips_cite/scVI_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite/scVI_seed1",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "scVI_seed1",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 1
+    },
+    "source": "results/neurips_cite/scVI_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite/scVI_seed2",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "scVI_seed2",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 2
+    },
+    "source": "results/neurips_cite/scVI_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite/scVI_seed3",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "scVI_seed3",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 3
+    },
+    "source": "results/neurips_cite/scVI_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite/scVI_seed4",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex.h5ad",
+      "results_dir": "results/neurips_cite",
+      "run_name": "scVI_seed4",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 4
+    },
+    "source": "results/neurips_cite/scVI_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/PCA_2D",
+    "group": "figures",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "PCA_2D",
+      "batch_key": [
+        "batch"
+      ],
+      "hvg": null,
+      "seed": 42,
+      "embedding_dim": 2
+    },
+    "source": "results/neurips_cite_stem_cells/PCA_2D/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/PCA_3D",
+    "group": "figures",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "PCA_3D",
+      "batch_key": [
+        "batch"
+      ],
+      "hvg": null,
+      "seed": 42,
+      "embedding_dim": 3
+    },
+    "source": "results/neurips_cite_stem_cells/PCA_3D/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_16D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_16D_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_16D_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_16D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_16D_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_16D_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_16D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_16D_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_16D_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_16D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_16D_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_16D_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_16D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_16D_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_16D_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_2D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_2D_seed0",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_2D_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_2D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_2D_seed1",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_2D_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_2D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_2D_seed2",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_2D_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_2D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_2D_seed3",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_2D_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_2D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_2D_seed4",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_2D_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_32D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_32D_seed0",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_32D_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_32D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_32D_seed1",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_32D_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_32D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_32D_seed2",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_32D_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_32D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_32D_seed3",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_32D_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_32D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_32D_seed4",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_32D_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_3D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_3D_seed0",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_3D_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_3D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_3D_seed1",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_3D_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_3D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_3D_seed2",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_3D_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_3D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_3D_seed3",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_3D_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_3D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_3D_seed4",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_3D_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_64D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_64D_seed0",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_64D_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_64D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_64D_seed1",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_64D_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_64D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_64D_seed2",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_64D_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_64D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_64D_seed3",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_64D_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_64D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_64D_seed4",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_64D_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_8D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_8D_seed0",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_8D_seed0/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_8D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_8D_seed1",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_8D_seed1/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_8D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_8D_seed2",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_8D_seed2/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_8D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_8D_seed3",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_8D_seed3/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SCENE_8D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SCENE_8D_seed4",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/SCENE_8D_seed4/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SIMBA_2D",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SIMBA_2D",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 2,
+      "layer": "simba",
+      "batch_key": [
+        "batch"
+      ],
+      "seed": 42,
+      "pbg_workers": 4
+    },
+    "source": "results/neurips_cite_stem_cells/SIMBA_2D/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/SIMBA_3D",
+    "group": "figures",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "SIMBA_3D",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 3,
+      "layer": "simba",
+      "batch_key": [
+        "batch"
+      ],
+      "seed": 42,
+      "pbg_workers": 4
+    },
+    "source": "results/neurips_cite_stem_cells/SIMBA_3D/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/scLDM_batch_full_2D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "scLDM_batch_full_2D",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/scLDM_batch_full_2D/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/scLDM_batch_full_3D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "scLDM_batch_full_3D",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": [
+        "batch"
+      ],
+      "batch_variant": [
+        "lowrank"
+      ],
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/neurips_cite_stem_cells/scLDM_batch_full_3D/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/scVI_2D",
+    "group": "figures",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "scVI_2D",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "batch"
+      ],
+      "n_latent": 2,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 42
+    },
+    "source": "results/neurips_cite_stem_cells/scVI_2D/config.json"
+  },
+  {
+    "run": "neurips_cite_stem_cells/scVI_3D",
+    "group": "figures",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/neurips_cite_gex_stem_cells.h5ad",
+      "results_dir": "results/neurips_cite_stem_cells",
+      "run_name": "scVI_3D",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "batch"
+      ],
+      "n_latent": 3,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 42
+    },
+    "source": "results/neurips_cite_stem_cells/scVI_3D/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/PCA_seed0",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "PCA_seed0",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 0,
+      "embedding_dim": 50
+    },
+    "source": "results/pbmc_cite_seq/PCA_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/PCA_seed1",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "PCA_seed1",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 1,
+      "embedding_dim": 50
+    },
+    "source": "results/pbmc_cite_seq/PCA_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/PCA_seed2",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "PCA_seed2",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 2,
+      "embedding_dim": 50
+    },
+    "source": "results/pbmc_cite_seq/PCA_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/PCA_seed3",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "PCA_seed3",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 3,
+      "embedding_dim": 50
+    },
+    "source": "results/pbmc_cite_seq/PCA_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/PCA_seed4",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "PCA_seed4",
+      "batch_key": [],
+      "hvg": null,
+      "seed": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/pbmc_cite_seq/PCA_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_16D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_16D_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_16D_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_16D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_16D_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_16D_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_16D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_16D_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_16D_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_16D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_16D_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_16D_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_16D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_16D_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_16D_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_2D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_2D_seed0",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_2D_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_2D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_2D_seed1",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_2D_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_2D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_2D_seed2",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_2D_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_2D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_2D_seed3",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_2D_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_2D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_2D_seed4",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_2D_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_32D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_32D_seed0",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_32D_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_32D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_32D_seed1",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_32D_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_32D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_32D_seed2",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_32D_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_32D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_32D_seed3",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_32D_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_32D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_32D_seed4",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_32D_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_3D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_3D_seed0",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_3D_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_3D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_3D_seed1",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_3D_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_3D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_3D_seed2",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_3D_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_3D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_3D_seed3",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_3D_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_3D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_3D_seed4",
+      "latent_dim": 3,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_3D_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_64D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_64D_seed0",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_64D_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_64D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_64D_seed1",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_64D_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_64D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_64D_seed2",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_64D_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_64D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_64D_seed3",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_64D_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_64D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_64D_seed4",
+      "latent_dim": 64,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_64D_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_8D_seed0",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_8D_seed0",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_8D_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_8D_seed1",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_8D_seed1",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_8D_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_8D_seed2",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_8D_seed2",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_8D_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_8D_seed3",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_8D_seed3",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_8D_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_8D_seed4",
+    "group": "dimensions",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_8D_seed4",
+      "latent_dim": 8,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "split_seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_8D_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_seed0",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 0,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_seed1",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 1,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_seed2",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 2,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_seed3",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 3,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SCENE_seed4",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SCENE_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 4,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/SCENE_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SIMBA_seed0",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SIMBA_seed0",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 0,
+      "pbg_workers": 12
+    },
+    "source": "results/pbmc_cite_seq/SIMBA_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SIMBA_seed1",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SIMBA_seed1",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 1,
+      "pbg_workers": 12
+    },
+    "source": "results/pbmc_cite_seq/SIMBA_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SIMBA_seed2",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SIMBA_seed2",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 2,
+      "pbg_workers": 12
+    },
+    "source": "results/pbmc_cite_seq/SIMBA_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SIMBA_seed3",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SIMBA_seed3",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 3,
+      "pbg_workers": 12
+    },
+    "source": "results/pbmc_cite_seq/SIMBA_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/SIMBA_seed4",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "SIMBA_seed4",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": null,
+      "seed": 4,
+      "pbg_workers": 12
+    },
+    "source": "results/pbmc_cite_seq/SIMBA_seed4/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/scLDM_2D",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "scLDM_2D",
+      "latent_dim": 2,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/scLDM_2D/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/scLDM_32D_laplacian",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "scLDM_32D_laplacian",
+      "latent_dim": 32,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "laplacian",
+      "gene_init": "laplacian",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/pbmc_cite_seq/scLDM_32D_laplacian/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/scVI_seed0",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "scVI_seed0",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 0
+    },
+    "source": "results/pbmc_cite_seq/scVI_seed0/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/scVI_seed1",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "scVI_seed1",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 1
+    },
+    "source": "results/pbmc_cite_seq/scVI_seed1/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/scVI_seed2",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "scVI_seed2",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 2
+    },
+    "source": "results/pbmc_cite_seq/scVI_seed2/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/scVI_seed3",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "scVI_seed3",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 3
+    },
+    "source": "results/pbmc_cite_seq/scVI_seed3/config.json"
+  },
+  {
+    "run": "pbmc_cite_seq/scVI_seed4",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/pbmc_cite_seq",
+      "run_name": "scVI_seed4",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 4
+    },
+    "source": "results/pbmc_cite_seq/scVI_seed4/config.json"
+  },
+  {
+    "run": "sim_1/PCA_seed0",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "PCA_seed0",
+      "batch_key": [
+        "Batch"
+      ],
+      "hvg": null,
+      "seed": 0,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_1/PCA_seed0/config.json"
+  },
+  {
+    "run": "sim_1/PCA_seed1",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "PCA_seed1",
+      "batch_key": [
+        "Batch"
+      ],
+      "hvg": null,
+      "seed": 1,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_1/PCA_seed1/config.json"
+  },
+  {
+    "run": "sim_1/PCA_seed2",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "PCA_seed2",
+      "batch_key": [
+        "Batch"
+      ],
+      "hvg": null,
+      "seed": 2,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_1/PCA_seed2/config.json"
+  },
+  {
+    "run": "sim_1/PCA_seed3",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "PCA_seed3",
+      "batch_key": [
+        "Batch"
+      ],
+      "hvg": null,
+      "seed": 3,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_1/PCA_seed3/config.json"
+  },
+  {
+    "run": "sim_1/PCA_seed4",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "PCA_seed4",
+      "batch_key": [
+        "Batch"
+      ],
+      "hvg": null,
+      "seed": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_1/PCA_seed4/config.json"
+  },
+  {
+    "run": "sim_1/SCENE_seed0",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SCENE_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "batch_keys": [
+        "Batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 0,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_1/SCENE_seed0/config.json"
+  },
+  {
+    "run": "sim_1/SCENE_seed1",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SCENE_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "batch_keys": [
+        "Batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 1,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_1/SCENE_seed1/config.json"
+  },
+  {
+    "run": "sim_1/SCENE_seed2",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SCENE_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "batch_keys": [
+        "Batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 2,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_1/SCENE_seed2/config.json"
+  },
+  {
+    "run": "sim_1/SCENE_seed3",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SCENE_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "batch_keys": [
+        "Batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 3,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_1/SCENE_seed3/config.json"
+  },
+  {
+    "run": "sim_1/SCENE_seed4",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SCENE_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "batch_keys": [
+        "Batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 4,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_1/SCENE_seed4/config.json"
+  },
+  {
+    "run": "sim_1/SIMBA_seed0",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SIMBA_seed0",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch"
+      ],
+      "seed": 0,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_1/SIMBA_seed0/config.json"
+  },
+  {
+    "run": "sim_1/SIMBA_seed1",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SIMBA_seed1",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch"
+      ],
+      "seed": 1,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_1/SIMBA_seed1/config.json"
+  },
+  {
+    "run": "sim_1/SIMBA_seed2",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SIMBA_seed2",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch"
+      ],
+      "seed": 2,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_1/SIMBA_seed2/config.json"
+  },
+  {
+    "run": "sim_1/SIMBA_seed3",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SIMBA_seed3",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch"
+      ],
+      "seed": 3,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_1/SIMBA_seed3/config.json"
+  },
+  {
+    "run": "sim_1/SIMBA_seed4",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "SIMBA_seed4",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch"
+      ],
+      "seed": 4,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_1/SIMBA_seed4/config.json"
+  },
+  {
+    "run": "sim_1/scVI_seed0",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "scVI_seed0",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 0
+    },
+    "source": "results/sim_1/scVI_seed0/config.json"
+  },
+  {
+    "run": "sim_1/scVI_seed1",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "scVI_seed1",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 1
+    },
+    "source": "results/sim_1/scVI_seed1/config.json"
+  },
+  {
+    "run": "sim_1/scVI_seed2",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "scVI_seed2",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 2
+    },
+    "source": "results/sim_1/scVI_seed2/config.json"
+  },
+  {
+    "run": "sim_1/scVI_seed3",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "scVI_seed3",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 3
+    },
+    "source": "results/sim_1/scVI_seed3/config.json"
+  },
+  {
+    "run": "sim_1/scVI_seed4",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim1_1_norm.h5ad",
+      "results_dir": "results/sim_1",
+      "run_name": "scVI_seed4",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 4
+    },
+    "source": "results/sim_1/scVI_seed4/config.json"
+  },
+  {
+    "run": "sim_2/PCA_seed0",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "PCA_seed0",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "hvg": null,
+      "seed": 0,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_2/PCA_seed0/config.json"
+  },
+  {
+    "run": "sim_2/PCA_seed1",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "PCA_seed1",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "hvg": null,
+      "seed": 1,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_2/PCA_seed1/config.json"
+  },
+  {
+    "run": "sim_2/PCA_seed2",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "PCA_seed2",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "hvg": null,
+      "seed": 2,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_2/PCA_seed2/config.json"
+  },
+  {
+    "run": "sim_2/PCA_seed3",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "PCA_seed3",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "hvg": null,
+      "seed": 3,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_2/PCA_seed3/config.json"
+  },
+  {
+    "run": "sim_2/PCA_seed4",
+    "group": "benchmarks",
+    "model": "pca",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "PCA_seed4",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "hvg": null,
+      "seed": 4,
+      "embedding_dim": 50
+    },
+    "source": "results/sim_2/PCA_seed4/config.json"
+  },
+  {
+    "run": "sim_2/SCENE_seed0",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SCENE_seed0",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 0,
+      "batch_keys": [
+        "Batch",
+        "SubBatch"
+      ],
+      "batch_variant": [
+        "full",
+        "lowrank"
+      ],
+      "rank": 4,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 0,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/SCENE_seed0/config.json"
+  },
+  {
+    "run": "sim_2/SCENE_seed1",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SCENE_seed1",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 1,
+      "batch_keys": [
+        "Batch",
+        "SubBatch"
+      ],
+      "batch_variant": [
+        "full",
+        "lowrank"
+      ],
+      "rank": 4,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 1,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/SCENE_seed1/config.json"
+  },
+  {
+    "run": "sim_2/SCENE_seed2",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SCENE_seed2",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 2,
+      "batch_keys": [
+        "Batch",
+        "SubBatch"
+      ],
+      "batch_variant": [
+        "full",
+        "lowrank"
+      ],
+      "rank": 4,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 2,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/SCENE_seed2/config.json"
+  },
+  {
+    "run": "sim_2/SCENE_seed3",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SCENE_seed3",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 3,
+      "batch_keys": [
+        "Batch",
+        "SubBatch"
+      ],
+      "batch_variant": [
+        "full",
+        "lowrank"
+      ],
+      "rank": 4,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 3,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/SCENE_seed3/config.json"
+  },
+  {
+    "run": "sim_2/SCENE_seed4",
+    "group": "benchmarks",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SCENE_seed4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 4,
+      "batch_keys": [
+        "Batch",
+        "SubBatch"
+      ],
+      "batch_variant": [
+        "full",
+        "lowrank"
+      ],
+      "rank": 4,
+      "loss_type": "ZIP",
+      "cell_batch_size": null,
+      "split_seed": 4,
+      "no_validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/SCENE_seed4/config.json"
+  },
+  {
+    "run": "sim_2/SIMBA_seed0",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SIMBA_seed0",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "seed": 0,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_2/SIMBA_seed0/config.json"
+  },
+  {
+    "run": "sim_2/SIMBA_seed1",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SIMBA_seed1",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "seed": 1,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_2/SIMBA_seed1/config.json"
+  },
+  {
+    "run": "sim_2/SIMBA_seed2",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SIMBA_seed2",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "seed": 2,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_2/SIMBA_seed2/config.json"
+  },
+  {
+    "run": "sim_2/SIMBA_seed3",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SIMBA_seed3",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "seed": 3,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_2/SIMBA_seed3/config.json"
+  },
+  {
+    "run": "sim_2/SIMBA_seed4",
+    "group": "benchmarks",
+    "model": "simba",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "SIMBA_seed4",
+      "out_emb": "SIMBA",
+      "min_n_cells": 3,
+      "n_bins": 5,
+      "max_bins": 100,
+      "normalize_method": "lib_size",
+      "embedding_dim": 50,
+      "layer": "simba",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "seed": 4,
+      "pbg_workers": 12
+    },
+    "source": "results/sim_2/SIMBA_seed4/config.json"
+  },
+  {
+    "run": "sim_2/scLDM",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scLDM",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 42,
+      "batch_keys": null,
+      "batch_variant": null,
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/scLDM/config.json"
+  },
+  {
+    "run": "sim_2/scLDM_batch_full",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scLDM_batch_full",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 42,
+      "batch_keys": [
+        "Batch"
+      ],
+      "batch_variant": [
+        "full"
+      ],
+      "rank": 2,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/scLDM_batch_full/config.json"
+  },
+  {
+    "run": "sim_2/scLDM_batch_full_lowrank_4",
+    "group": "figures",
+    "model": "scene",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scLDM_batch_full_lowrank_4",
+      "latent_dim": 16,
+      "epochs": 600,
+      "device": "cpu",
+      "lr": 0.05,
+      "layer": "counts",
+      "out_emb": "scLDM",
+      "cell_init": "random",
+      "gene_init": "random",
+      "seed": 42,
+      "batch_keys": [
+        "Batch",
+        "SubBatch"
+      ],
+      "batch_variant": [
+        "full",
+        "lowrank"
+      ],
+      "rank": 4,
+      "split_seed": 42,
+      "loss_type": "ZIP",
+      "validate": true,
+      "pi_only": true
+    },
+    "source": "results/sim_2/scLDM_batch_full_lowrank_4/config.json"
+  },
+  {
+    "run": "sim_2/scVI",
+    "group": "figures",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": null,
+      "n_latent": 10,
+      "n_layers": 1,
+      "gene_likelihood": "zinb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 42
+    },
+    "source": "results/sim_2/scVI/config.json"
+  },
+  {
+    "run": "sim_2/scVI_batch",
+    "group": "figures",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI_batch",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 42
+    },
+    "source": "results/sim_2/scVI_batch/config.json"
+  },
+  {
+    "run": "sim_2/scVI_batch_subbatch",
+    "group": "figures",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI_batch_subbatch",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cuda",
+      "seed": 42
+    },
+    "source": "results/sim_2/scVI_batch_subbatch/config.json"
+  },
+  {
+    "run": "sim_2/scVI_seed0",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI_seed0",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 0
+    },
+    "source": "results/sim_2/scVI_seed0/config.json"
+  },
+  {
+    "run": "sim_2/scVI_seed1",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI_seed1",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 1
+    },
+    "source": "results/sim_2/scVI_seed1/config.json"
+  },
+  {
+    "run": "sim_2/scVI_seed2",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI_seed2",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 2
+    },
+    "source": "results/sim_2/scVI_seed2/config.json"
+  },
+  {
+    "run": "sim_2/scVI_seed3",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI_seed3",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 3
+    },
+    "source": "results/sim_2/scVI_seed3/config.json"
+  },
+  {
+    "run": "sim_2/scVI_seed4",
+    "group": "benchmarks",
+    "model": "scvi",
+    "arguments": {
+      "input_h5ad": "data/sim2_norm.h5ad",
+      "results_dir": "results/sim_2",
+      "run_name": "scVI_seed4",
+      "out_emb": "scVI",
+      "layer": "counts",
+      "batch_key": [
+        "Batch",
+        "SubBatch"
+      ],
+      "n_latent": 30,
+      "n_layers": 2,
+      "gene_likelihood": "nb",
+      "max_epochs": 400,
+      "device": "cpu",
+      "seed": 4
+    },
+    "source": "results/sim_2/scVI_seed4/config.json"
+  },
+  {
+    "run": "imputation/pbmc_cite_seq_SCENE_zip",
+    "group": "imputation",
+    "model": "scene",
+    "arguments": {
+      "model": "scene",
+      "data_path": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/imputation",
+      "experiment_name": "pbmc_cite_seq_SCENE_zip",
+      "preset": "naive",
+      "epochs": 600,
+      "seed": 42,
+      "split_seed": 42,
+      "device": "cpu",
+      "out_emb": "SCLDM",
+      "loss_type": "ZIP"
+    },
+    "source": "results/imputation/pbmc_cite_seq_SCENE_zip/config.json"
+  },
+  {
+    "run": "imputation/pbmc_cite_seq_SCENE_poisson",
+    "group": "imputation",
+    "model": "scene",
+    "arguments": {
+      "model": "scene",
+      "data_path": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/imputation",
+      "experiment_name": "pbmc_cite_seq_SCENE_poisson",
+      "preset": "naive",
+      "epochs": 600,
+      "seed": 42,
+      "split_seed": 42,
+      "device": "cpu",
+      "out_emb": "SCLDM",
+      "loss_type": "poisson"
+    },
+    "source": "results/imputation/pbmc_cite_seq_SCENE_poisson/config.json"
+  },
+  {
+    "run": "imputation/pbmc_cite_seq_scVI",
+    "group": "imputation",
+    "model": "scvi",
+    "arguments": {
+      "model": "scvi",
+      "data_path": "data/pbmc_cite_seq.h5ad",
+      "results_dir": "results/imputation",
+      "experiment_name": "pbmc_cite_seq_scVI",
+      "preset": "naive",
+      "epochs": 400,
+      "seed": 42,
+      "split_seed": 42,
+      "device": "cuda",
+      "out_emb": "SCVI"
+    },
+    "source": "results/imputation/pbmc_cite_seq_scVI/config.json"
+  }
+]

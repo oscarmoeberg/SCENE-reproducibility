@@ -1,0 +1,24 @@
+name: SCENE_repro_simba
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # SIMBA and its graph backend are installed from pinned Git commits below.
+  - python=3.10
+  - pip
+  - git
+  - ipykernel
+  - pip:
+      - anndata==0.11.4
+      - dgl==2.2.0
+      - numpy==2.2.6
+      - pandas==2.3.3
+      - pybedtools==0.12.0
+      - scanpy==1.11.5
+      - scikit-learn==1.7.2
+      - scipy==1.15.3
+      - simba @ git+https://github.com/huidongchen/simba.git@2da478746616ce914cc5a983b60ac9a55a4bbcd7
+      - tables==3.10.1
+      - torch==2.3.0
+      - torchbiggraph @ git+https://github.com/pinellolab/simba_pbg.git@4cd0f0863e0301e2e6b7053b8147146175db63df
+      - torchdata==0.7.1

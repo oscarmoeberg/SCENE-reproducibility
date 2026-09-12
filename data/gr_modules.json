@@ -1,0 +1,17 @@
+{
+    "GR_direct_GRE_core": [
+        "FKBP5","SGK1","DUSP1","TSC22D3","KLF9","PER1","ZFP36"
+    ],
+    
+    "GR_secondary_TF_core": [
+        "KLF9","KLF15","CEBPD","PER1","NR4A1","NR4A2","TFAP4"
+    ],
+
+    "Glycolysis_core": [
+        "HK1","GPI","PFKP","ALDOA","GAPDH","PGK1","ENO1","PKM"
+    ],
+
+    "TCA_cycle_core": [
+        "CS","ACO2","IDH3A","OGDH","SUCLG1","SDHA","MDH2"
+    ]
+}

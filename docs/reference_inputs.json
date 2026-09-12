@@ -1,0 +1,564 @@
+{
+  "cortex.h5ad": {
+    "shape": [
+      3005,
+      19972
+    ],
+    "layers": [],
+    "obs_columns": [
+      "labels",
+      "precise_labels",
+      "cell_type"
+    ],
+    "var_columns": [],
+    "cell_names_sha256": "09fdc26e010d2ea2481b662956d5515303c1cee4dec92e2a2200b5bd9323e6a0",
+    "gene_names_sha256": "d2f8cf5557eb7b63a19f2fe7753f50dc74df54b5e2471fdb7cc334df3abd6173"
+  },
+  "hca_nuclei.h5ad": {
+    "shape": [
+      13733,
+      26662
+    ],
+    "layers": [],
+    "obs_columns": [
+      "NRP",
+      "age_group",
+      "cell_source",
+      "cell_type",
+      "donor",
+      "gender",
+      "n_counts",
+      "n_genes",
+      "percent_mito",
+      "percent_ribo",
+      "region",
+      "sample",
+      "scrublet_score",
+      "source",
+      "type",
+      "version",
+      "cell_states",
+      "Used",
+      "sample_post"
+    ],
+    "var_columns": [
+      "gene_ids-Harvard-Nuclei",
+      "feature_types-Harvard-Nuclei",
+      "gene_ids-Sanger-Nuclei",
+      "feature_types-Sanger-Nuclei",
+      "gene_ids-Sanger-Cells",
+      "feature_types-Sanger-Cells",
+      "gene_ids-Sanger-CD45",
+      "feature_types-Sanger-CD45",
+      "n_counts"
+    ],
+    "cell_names_sha256": "3b36980a0db3be2cf1e0f623ec152aaf668515cf8ad704498259267c1773c00f",
+    "gene_names_sha256": "8139edb55cd1b397c99e28568b94c0e320c25226c94f2a5263e43eb14ec00df8"
+  },
+  "hca_subsampled_20k.h5ad": {
+    "shape": [
+      18641,
+      26662
+    ],
+    "layers": [],
+    "obs_columns": [
+      "NRP",
+      "age_group",
+      "cell_source",
+      "cell_type",
+      "donor",
+      "gender",
+      "n_counts",
+      "n_genes",
+      "percent_mito",
+      "percent_ribo",
+      "region",
+      "sample",
+      "scrublet_score",
+      "source",
+      "type",
+      "version",
+      "cell_states",
+      "Used",
+      "sample_post"
+    ],
+    "var_columns": [
+      "gene_ids-Harvard-Nuclei",
+      "feature_types-Harvard-Nuclei",
+      "gene_ids-Sanger-Nuclei",
+      "feature_types-Sanger-Nuclei",
+      "gene_ids-Sanger-Cells",
+      "feature_types-Sanger-Cells",
+      "gene_ids-Sanger-CD45",
+      "feature_types-Sanger-CD45",
+      "n_counts"
+    ],
+    "cell_names_sha256": "7eb4c301b7718447c68a594b40220d57c01cab27bea3101428358e15c51fa7c8",
+    "gene_names_sha256": "8139edb55cd1b397c99e28568b94c0e320c25226c94f2a5263e43eb14ec00df8"
+  },
+  "pbmc_cite_seq.h5ad": {
+    "shape": [
+      152094,
+      20729
+    ],
+    "layers": [],
+    "obs_columns": [
+      "nCount_ADT",
+      "nFeature_ADT",
+      "nCount_RNA",
+      "nFeature_RNA",
+      "orig.ident",
+      "lane",
+      "donor",
+      "time",
+      "celltype.l1",
+      "celltype.l2",
+      "celltype.l3",
+      "Phase",
+      "nCount_SCT",
+      "nFeature_SCT",
+      "X_index",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "Protein log library size",
+      "Number proteins detected",
+      "RNA log library size"
+    ],
+    "var_columns": [
+      "mt"
+    ],
+    "cell_names_sha256": "9997e05701c02363ba9aa679213634cf7c1f4eda5c84734bcc9be1968760bcda",
+    "gene_names_sha256": "6e65428d979915b73e7c2ea24da8fef135a1f6df58c298fcb05b8d61d36b047b"
+  },
+  "kang_2018.h5ad": {
+    "shape": [
+      24673,
+      15706
+    ],
+    "layers": [],
+    "obs_columns": [
+      "nCount_RNA",
+      "nFeature_RNA",
+      "tsne1",
+      "tsne2",
+      "label",
+      "cluster",
+      "cell_type",
+      "replicate",
+      "nCount_SCT",
+      "nFeature_SCT",
+      "integrated_snn_res.0.4",
+      "seurat_clusters"
+    ],
+    "var_columns": [
+      "name"
+    ],
+    "cell_names_sha256": "2161e7bb6718048e12360f942721c40c7fccfd75c5f33bf4c27aa82ecd75c697",
+    "gene_names_sha256": "2701d931231fd1a570a25f8e08a05409be14edaef386942cc17e22686a2d4624"
+  },
+  "neurips_cite_gex.h5ad": {
+    "shape": [
+      90261,
+      13953
+    ],
+    "layers": [
+      "counts"
+    ],
+    "obs_columns": [
+      "GEX_n_genes_by_counts",
+      "GEX_pct_counts_mt",
+      "GEX_size_factors",
+      "GEX_phase",
+      "ADT_n_antibodies_by_counts",
+      "ADT_total_counts",
+      "ADT_iso_count",
+      "cell_type",
+      "batch",
+      "ADT_pseudotime_order",
+      "GEX_pseudotime_order",
+      "Samplename",
+      "Site",
+      "DonorNumber",
+      "Modality",
+      "VendorLot",
+      "DonorID",
+      "DonorAge",
+      "DonorBMI",
+      "DonorBloodType",
+      "DonorRace",
+      "Ethnicity",
+      "DonorGender",
+      "QCMeds",
+      "DonorSmoker",
+      "is_train"
+    ],
+    "var_columns": [
+      "feature_types",
+      "gene_id"
+    ],
+    "cell_names_sha256": "6feadf39bd7a7c233430c6a8280007484dbedbe323b338ebf0c17eeb816e7ec6",
+    "gene_names_sha256": "89ca8dfb680782933ea21472c87ed33b4341edff82419d0769729d3d17f9951b"
+  },
+  "neurips_cite_gex_stem_cells.h5ad": {
+    "shape": [
+      39860,
+      13953
+    ],
+    "layers": [
+      "counts"
+    ],
+    "obs_columns": [
+      "GEX_n_genes_by_counts",
+      "GEX_pct_counts_mt",
+      "GEX_size_factors",
+      "GEX_phase",
+      "ADT_n_antibodies_by_counts",
+      "ADT_total_counts",
+      "ADT_iso_count",
+      "cell_type",
+      "batch",
+      "ADT_pseudotime_order",
+      "GEX_pseudotime_order",
+      "Samplename",
+      "Site",
+      "DonorNumber",
+      "Modality",
+      "VendorLot",
+      "DonorID",
+      "DonorAge",
+      "DonorBMI",
+      "DonorBloodType",
+      "DonorRace",
+      "Ethnicity",
+      "DonorGender",
+      "QCMeds",
+      "DonorSmoker",
+      "is_train",
+      "cell_type_coarse"
+    ],
+    "var_columns": [
+      "feature_types",
+      "gene_id"
+    ],
+    "cell_names_sha256": "89d4af1605176a2504d38110e9b161e75d30cb00570407919bcf891125768373",
+    "gene_names_sha256": "89ca8dfb680782933ea21472c87ed33b4341edff82419d0769729d3d17f9951b"
+  },
+  "sim1_1_norm.h5ad": {
+    "shape": [
+      12097,
+      9979
+    ],
+    "layers": [
+      "counts"
+    ],
+    "obs_columns": [
+      "Cell",
+      "Batch",
+      "Group",
+      "ExpLibSize",
+      "sum",
+      "detected",
+      "percent_top_50",
+      "percent_top_100",
+      "percent_top_200",
+      "percent_top_500",
+      "total",
+      "Discard",
+      "size_factors"
+    ],
+    "var_columns": [
+      "Gene",
+      "BaseGeneMean",
+      "OutlierFactor",
+      "GeneMean",
+      "BatchFacBatch1",
+      "BatchFacBatch2",
+      "BatchFacBatch3",
+      "BatchFacBatch4",
+      "BatchFacBatch5",
+      "BatchFacBatch6",
+      "DEFacGroup1",
+      "DEFacGroup2",
+      "DEFacGroup3",
+      "DEFacGroup4",
+      "DEFacGroup5",
+      "DEFacGroup6",
+      "DEFacGroup7",
+      "mean",
+      "detected"
+    ],
+    "cell_names_sha256": "47c8e6621553abcb1622f692372ca10214be0945e738553b477130730228fc3f",
+    "gene_names_sha256": "a103fe7eb8e4c6877ad9569a7ddc2ec8c8ed4ec5eb9020ab60397bd8864d0daf"
+  },
+  "sim2_norm.h5ad": {
+    "shape": [
+      19318,
+      10000
+    ],
+    "layers": [
+      "counts"
+    ],
+    "obs_columns": [
+      "Cell",
+      "Batch",
+      "Group",
+      "ExpLibSize",
+      "SubBatch",
+      "Sub",
+      "sum",
+      "detected",
+      "percent_top_50",
+      "percent_top_100",
+      "percent_top_200",
+      "percent_top_500",
+      "total",
+      "Discard",
+      "size_factors"
+    ],
+    "var_columns": [
+      "Gene",
+      "BaseGeneMean",
+      "OutlierFactor",
+      "GeneMean",
+      "BatchFacBatch1",
+      "BatchFacBatch2",
+      "BatchFacBatch3",
+      "BatchFacBatch4",
+      "DEFacGroup1",
+      "DEFacGroup2",
+      "DEFacGroup3",
+      "DEFacGroup4",
+      "mean",
+      "detected"
+    ],
+    "cell_names_sha256": "8a3d1474d448f3f1acb8562495ebcdf98bc969943ba48917274fe7c2cfc5cd5a",
+    "gene_names_sha256": "fe78ee890dab71d4ba0cac22dff89509bf90adb1a89464382540bc8d0804a860"
+  },
+  "tcr_stim_data.h5ad": {
+    "shape": [
+      9492,
+      17840
+    ],
+    "layers": [
+      "logcounts",
+      "scaledata"
+    ],
+    "obs_columns": [
+      "orig.ident",
+      "percent.mito",
+      "res.1",
+      "nCount_RNA",
+      "nFeature_RNA",
+      "ident",
+      "condition"
+    ],
+    "var_columns": [],
+    "cell_names_sha256": "9f6664fb02dd46e57c5f40d5664e1f00e23676d1b26d3b417fbf1a536d658fa6",
+    "gene_names_sha256": "1441beccab7067da6cb741a42d2cf18944491727ea5244ad155e8d645cba5d30"
+  },
+  "GR_00.h5ad": {
+    "shape": [
+      400,
+      24128
+    ],
+    "layers": [],
+    "obs_columns": [
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "total_counts_ribo",
+      "pct_counts_ribo",
+      "total_counts_hb",
+      "pct_counts_hb",
+      "n_genes",
+      "time_code",
+      "dex_code",
+      "time_hr",
+      "time_label"
+    ],
+    "var_columns": [
+      "mt",
+      "ribo",
+      "hb",
+      "n_cells_by_counts",
+      "mean_counts",
+      "pct_dropout_by_counts",
+      "total_counts",
+      "n_cells"
+    ],
+    "cell_names_sha256": "e7937ff50f2e0cfbdc69b96e77ef71276b52553f10e6f636483a98e8ed813496",
+    "gene_names_sha256": "720ca570f6ff581257f5ec519e69f9a2a8f46889554436bf305f09bdffa5ab99"
+  },
+  "GR_01.h5ad": {
+    "shape": [
+      400,
+      24128
+    ],
+    "layers": [],
+    "obs_columns": [
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "total_counts_ribo",
+      "pct_counts_ribo",
+      "total_counts_hb",
+      "pct_counts_hb",
+      "n_genes",
+      "time_code",
+      "dex_code",
+      "time_hr",
+      "time_label"
+    ],
+    "var_columns": [
+      "mt",
+      "ribo",
+      "hb",
+      "n_cells_by_counts",
+      "mean_counts",
+      "pct_dropout_by_counts",
+      "total_counts",
+      "n_cells"
+    ],
+    "cell_names_sha256": "c2475501bc30b06cf06b0cac8ebdb27f796c1c8c3e7333ac88fbc1b5e465ba5a",
+    "gene_names_sha256": "720ca570f6ff581257f5ec519e69f9a2a8f46889554436bf305f09bdffa5ab99"
+  },
+  "GR_02.h5ad": {
+    "shape": [
+      400,
+      24128
+    ],
+    "layers": [],
+    "obs_columns": [
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "total_counts_ribo",
+      "pct_counts_ribo",
+      "total_counts_hb",
+      "pct_counts_hb",
+      "n_genes",
+      "time_code",
+      "dex_code",
+      "time_hr",
+      "time_label"
+    ],
+    "var_columns": [
+      "mt",
+      "ribo",
+      "hb",
+      "n_cells_by_counts",
+      "mean_counts",
+      "pct_dropout_by_counts",
+      "total_counts",
+      "n_cells"
+    ],
+    "cell_names_sha256": "940b27585c95d8919f0a9d0b5ef5c226188e01679f96ba9004b8336c8980b70b",
+    "gene_names_sha256": "720ca570f6ff581257f5ec519e69f9a2a8f46889554436bf305f09bdffa5ab99"
+  },
+  "GR_04.h5ad": {
+    "shape": [
+      400,
+      24128
+    ],
+    "layers": [],
+    "obs_columns": [
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "total_counts_ribo",
+      "pct_counts_ribo",
+      "total_counts_hb",
+      "pct_counts_hb",
+      "n_genes",
+      "time_code",
+      "dex_code",
+      "time_hr",
+      "time_label"
+    ],
+    "var_columns": [
+      "mt",
+      "ribo",
+      "hb",
+      "n_cells_by_counts",
+      "mean_counts",
+      "pct_dropout_by_counts",
+      "total_counts",
+      "n_cells"
+    ],
+    "cell_names_sha256": "245f49255957361c4a7f19d5d521004daf4869520c2e85f3d0233142872774f9",
+    "gene_names_sha256": "720ca570f6ff581257f5ec519e69f9a2a8f46889554436bf305f09bdffa5ab99"
+  },
+  "GR_08.h5ad": {
+    "shape": [
+      400,
+      24128
+    ],
+    "layers": [],
+    "obs_columns": [
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "total_counts_ribo",
+      "pct_counts_ribo",
+      "total_counts_hb",
+      "pct_counts_hb",
+      "n_genes",
+      "time_code",
+      "dex_code",
+      "time_hr",
+      "time_label"
+    ],
+    "var_columns": [
+      "mt",
+      "ribo",
+      "hb",
+      "n_cells_by_counts",
+      "mean_counts",
+      "pct_dropout_by_counts",
+      "total_counts",
+      "n_cells"
+    ],
+    "cell_names_sha256": "108ae707d8e0db95d789898059e0fdcd78531e1161653b9c6be08f7965d989fe",
+    "gene_names_sha256": "720ca570f6ff581257f5ec519e69f9a2a8f46889554436bf305f09bdffa5ab99"
+  },
+  "GR_18.h5ad": {
+    "shape": [
+      400,
+      24128
+    ],
+    "layers": [],
+    "obs_columns": [
+      "n_genes_by_counts",
+      "total_counts",
+      "total_counts_mt",
+      "pct_counts_mt",
+      "total_counts_ribo",
+      "pct_counts_ribo",
+      "total_counts_hb",
+      "pct_counts_hb",
+      "n_genes",
+      "time_code",
+      "dex_code",
+      "time_hr",
+      "time_label"
+    ],
+    "var_columns": [
+      "mt",
+      "ribo",
+      "hb",
+      "n_cells_by_counts",
+      "mean_counts",
+      "pct_dropout_by_counts",
+      "total_counts",
+      "n_cells"
+    ],
+    "cell_names_sha256": "129e598e2fab7a76c25ba22d9a86588affcfcf6c8438695aed612400c92234c5",
+    "gene_names_sha256": "720ca570f6ff581257f5ec519e69f9a2a8f46889554436bf305f09bdffa5ab99"
+  }
+}

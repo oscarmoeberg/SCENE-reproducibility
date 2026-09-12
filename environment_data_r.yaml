@@ -1,0 +1,9 @@
+name: SCENE_data_r
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.4
+  - r-seurat=5.2
+  - bioconductor-singlecellexperiment
+  - bioconductor-zellkonverter

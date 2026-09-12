@@ -1,0 +1,10 @@
+{
+  "gr_modules.json": {
+    "sha256": "5ed5749e0c57614ac6f97b15abfcc67a0ec63a7b175183e8faeec0b34e589c48",
+    "modules": 4
+  },
+  "tf_regulons.json": {
+    "sha256": "22b9aa7cc57d5236c1caaa94299aad632104b323cbdc187bf82377422bdbeb9a",
+    "modules": 174
+  }
+}
